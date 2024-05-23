@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Header titulo="Adopta un Perrito"/>
-      <div className='conteiner d-flex mt-5 mb-5 gap-3'>
+      <div className='d-flex flex-wrap justify-content-center mt-5 mb-5 gap-3'>
         <Carta
           nombre='San Bernados'
           img={Cachorro1}

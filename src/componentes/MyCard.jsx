@@ -3,11 +3,11 @@ import Card from 'react-bootstrap/Card'
 import Tags from './Tags'
 const Carta = ({nombre, img, desc, color, texto}) =>{
     return (
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={img} className='object-fit-cover'/>
+        <Card style={{ width: '18rem' }} >
+        <Card.Img variant="top" src={img} className='object-fit-cover imagen'/>
         <Card.Body>
             <Card.Title>{nombre}</Card.Title>
-            <Card.Text>
+            <Card.Text className='tamañoTexto'>
             {desc}
             </Card.Text>
             <Button variant="primary">Lo quiero Adoptar!</Button>
